@@ -1,9 +1,9 @@
 # League of Ireland (LOI) 2026 attendance plots
 
-The following is a time-series dashboard for matchday attendances across the 101 games played to date in the **2026 League of Ireland Premier Division** using `R` and `ggplot2`. 
+The following is a time-series dashboard for matchday attendances across the 101 games played to date in the 2026 League of Ireland Premier Division using `R` and `ggplot2`. 
 
-The visualisations are split into two separate plots to account for the fact that the game between **Bohemians** and **St Patrick's Athletic** on Sunday, February 8, 2026 was held at 
-the **Aviva Stadium**. The fixture attracted an attendance of 21,472 - the highest attendance of the 2026 LOI Premier Division campaign.
+The visualisations are split into two separate plots to account for the fact that the game between Bohemians and St Patrick's Athletic on Sunday, February 8, 2026 was held at 
+the Aviva Stadium. The fixture attracted an attendance of 21,472 - the highest crowd of the 2026 LOI Premier Division campaign.
 
 ---
 
@@ -17,7 +17,7 @@ This plot includes Bohemians' nominal home match against St Pat's at the Aviva S
 * **The design:** All charts share a locked scale (20,000+ attendance) so you can compare them accurately at a glance. 
 * **The downside:** Because the scale is so large, normal matchday crowds get squished at the bottom of the chart. It makes regular ups and downs look like flat lines.
 
-### Plot 2: Standard Home Grounds Profile (Excluding Outlier)
+### Plot 2: Standard home grounds profile (excluding Aviva Stadium outlier)
 This plot removes the Aviva Stadium match between Bohs and St Pat's to focus on typical weekly crowds at regular home grounds like Dalymount Park and Tallaght Stadium.
 
 ![Complete Dataset Attendance Plot](path/to/your/plot1.png)
@@ -26,15 +26,15 @@ This plot removes the Aviva Stadium match between Bohs and St Pat's to focus on 
 * **The benefit:** Each graph now resizes perfectly to fit that specific stadium. Smaller grounds like Drogheda zoom in on their 2,500 max capacity, while larger venues like Shamrock Rovers can scale up past 10,000. You can finally see the real weekly ups and downs for every team.
 ---
 
-## 🛠️ Data Processing & Layout Rules
+## 🛠️ Data processing & layout rules
 
-The underlying scripts handle your visualization processing through three specific phases:
+The underlying scripts handle your visualisation processing through three specific phases:
 
 ### 🛠️ Key dashboard features
 
 #### 1. Dynamic headers
-* **The Design:** Instead of cluttering the charts with messy text labels, the code automatically calculates each team's average attendance.
-* **The Benefit:** It bakes these averages straight into the team name headers (e.g., `Bohemians (Avg: 4,228)`), keeping the actual graphs completely clean.
+* **The design:** Instead of cluttering the charts with messy text labels, the code automatically calculates each team's average attendance.
+* **The benefit:** It bakes these averages straight into the team name headers (eg: `Bohemians (Avg: 4,228)`), keeping the actual graphs completely clean.
 
 #### 2. Timeline tracking
 * **The Design:** Matches are plotted left-to-right in the exact chronological order they were played.
