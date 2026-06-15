@@ -11,7 +11,8 @@ the Aviva Stadium. The fixture attracted an attendance of 21,472 - the highest c
 
 ### Plot 1: Complete dataset (including Aviva Stadium outlier)
 This plot includes Bohemians' nominal home match against St Pat's at the Aviva Stadium.
-![Plot 1](loi_attendance_2026_p1_complete_dataset.png)
+<img src="loi_attendance_2026_p1_complete_dataset.png" width="100%" />
+
 * **The design:** All charts share a locked scale (20,000+ attendance) so you can compare them accurately at a glance. 
 * **The downside:** Because the scale is so large, normal matchday crowds get squished at the bottom of the chart. It makes regular ups and downs look like flat lines.
 
