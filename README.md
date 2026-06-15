@@ -12,11 +12,17 @@ the Aviva Stadium. The fixture attracted an attendance of 21,472 - the highest c
 ### Plot 1: Complete dataset (including Aviva Stadium outlier)
 This plot includes Bohemians' nominal home match against St Pat's at the Aviva Stadium.
 
+![LOI 2026 Attendance Plots](loi_attendance_2026_p1_complete_dataset.png?v=2)
+
+
 * **The design:** All charts share a locked scale (20,000+ attendance) so you can compare them accurately at a glance. 
 * **The downside:** Because the scale is so large, normal matchday crowds get squished at the bottom of the chart. It makes regular ups and downs look like flat lines.
 
 ### Plot 2: Standard home grounds profile (excluding Aviva Stadium outlier)
 This plot removes the Aviva Stadium match between Bohs and St Pat's to focus on typical weekly crowds at regular home grounds like Dalymount Park and Tallaght Stadium.
+
+![LOI 2026 Attendance Plots](loi_attendance_2026_p2_complete_dataset.png?v=2)
+
 
 * **The design:** With the massive spike gone, each team's chart now uses its own individual scale.
 * **The benefit:** Each graph now resizes perfectly to fit that specific stadium. Smaller grounds like Drogheda zoom in on their circa 2,500 maximum capacity, while larger venues like Shamrock Rovers can scale up past 10,000. You can finally see the real weekly ups and downs for every team.
