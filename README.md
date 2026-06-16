@@ -11,7 +11,7 @@ The visualisations are split into two separate plots to account for the fact tha
 ### Plot 1: Complete dataset (including Aviva Stadium outlier)
 This plot includes Bohemians' nominal home match against St Pat's at the Aviva Stadium.
 
-![full attendance data](loi_att_2026_p1_complete.png)
+![full attendance data](loi_att_2026_part1_complete.png)
 
 
 * **The design:** All charts share a locked scale (20,000+ attendance) so you can compare them accurately at a glance. 
@@ -19,6 +19,8 @@ This plot includes Bohemians' nominal home match against St Pat's at the Aviva S
 
 ### Plot 2: Standard home grounds profile (excluding Aviva Stadium outlier)
 This plot removes the Aviva Stadium match between Bohs and St Pat's to focus on typical weekly crowds at regular home grounds like Dalymount Park and Tallaght Stadium.
+
+![partial attendance data](loi_att_2026_part2_complete.png)
 
 * **The design:** With the massive spike gone, each team's chart now uses its own individual scale.
 * **The benefit:** Each graph now resizes perfectly to fit that specific stadium. Smaller grounds like Drogheda zoom in on their circa 2,500 maximum capacity, while larger venues like Shamrock Rovers can scale up past 10,000. You can finally see the real weekly ups and downs for every team.
