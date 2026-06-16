@@ -1,6 +1,6 @@
 # League of Ireland 2026 attendance plots
 
-The following is a time-series dashboard for matchday attendances across the 101 games played to date in the 2026 League of Ireland Premier Division using `R` and `ggplot2`. 
+Time-series attendance dashboard for the 101 League of Ireland Premier Division matches played to date, built using `R` and `ggplot2`.
 
 The visualisations are split into two separate plots to account for the fact that the game between Bohemians and St Patrick's Athletic on Sunday, February 8, 2026 was held at 
 the Aviva Stadium. The fixture attracted an attendance of 21,472 - the highest crowd of the 2026 LOI Premier Division campaign.
