@@ -11,6 +11,9 @@ The visualisations are split into two separate plots to account for the fact tha
 ### Plot 1: Complete dataset (including Aviva Stadium outlier)
 This plot includes Bohemians' nominal home match against St Pat's at the Aviva Stadium.
 
+![full attendance data](loi_att_2026_part1_complete.png)
+
+
 * **The design:** All charts share a locked scale (20,000+ attendance) so you can compare them accurately at a glance. 
 * **The downside:** Because the scale is so large, normal matchday crowds get squished at the bottom of the chart. It makes regular ups and downs look like flat lines.
 
