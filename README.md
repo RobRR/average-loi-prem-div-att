@@ -30,15 +30,15 @@ The underlying scripts handle your visualisation processing through three specif
 
 #### 1. Dynamic headers
 * **The design:** Instead of cluttering the charts with messy text labels, the code automatically calculates each team's average attendance.
-* **The benefit:** It bakes these averages straight into the team name headers (eg: `Bohemians (Avg: 4,228)`), keeping the actual graphs completely clean.
+* **The benefit:** It incorporates these averages straight into the team name headers (eg: `Bohemians (Avg: 4,228)`), keeping the actual graphs completely clean.
 
 #### 2. Timeline tracking
-* **The Design:** Matches are plotted left-to-right in the exact chronological order they were played.
-* **The Benefit:** This turns a separate list of attendance figures into a continuous timeline, showing exactly how crowds grew or shrank as the season went on.
+* **The Design:** Matches are plotted from left to right in the exact chronological order they were played.
+* **The Benefit:** This turns a separate list of attendance figures into a continuous timeline, showing exactly how crowds grew or shrank over the course of the season.
 
 #### 3. High-contrast dark theme
-* **The Design:** The dashboard uses a modern, deep-charcoal dark background instead of standard white grids.
-* **The Benefit:** This subtle backdrop makes the bright blue trendlines and data points instantly pop, making the charts much easier to read on digital screens.
+* **The Design:** The dashboard uses a deep-charcoal dark background instead of standard white grids.
+* **The Benefit:** This backdrop makes the bright blue trendlines and data points standout, making the charts much easier to read on digital screens.
 
 ---
 
