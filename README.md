@@ -1,4 +1,4 @@
-# League of Ireland (LOI) 2026 attendance plots
+# League of Ireland 2026 attendance plots
 
 The following is a time-series dashboard for matchday attendances across the 101 games played to date in the 2026 League of Ireland Premier Division using `R` and `ggplot2`. 
 
